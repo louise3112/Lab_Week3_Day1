@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    background-color: blue;
+    padding: 16px;
+}
+
+h1 {
+    margin: 0;
+}
+
+header > nav > p > a {
+    color: white;
+}
+
+main {
+    padding: 16px;
+}
+
+main > h2 {
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+main > nav > ul {
+    margin-top: 0;
+}
+
+main > h3 {
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.breaking_news > h4 {
+    margin-bottom: 0;
+}
+
+.breaking_news > p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+article > h2 {
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+article > h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+article > h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+article > p {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.user_comment {
+    padding-left: 24px;
+}
+
+.user_comment > h4 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.user_comment > h5 {
+    margin: 0;
+}
+
+footer {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 8px;
+}
+
+footer > p {
+    margin: 0;
+}
