@@ -17,11 +17,13 @@
         </nav>
         <h2>Login</h2>
         <form>
-            <label>Email:</label><br>
-            <input type="email"><br>
-            <label>Password:</label><br>
-            <input type="password"><br>
-            <input type="submit">
+            <label for="email">Email:</label> 
+            <!-- The 'for' attribute allows the label to be linked to the input with the matching id attribute. -->
+            <input id="email" type="email"><br>
+            <!-- The id attribute can be used by CSS but will also be used for referencing the input when needed. -->
+            <label for="password">Password:</label>
+            <input id="password" type="password"><br>
+            <input id="submit" type="submit">
         </form>
     </header>
 
@@ -67,8 +69,9 @@
 
             <h3>Comments</h3>
             <form>
-                <textarea rows="6" cols="106"></textarea><br>
-                <input type="submit">
+                <!-- <textarea rows="6" cols="106"></textarea><br> -->
+                <input id="user_comment" type="text"><br>
+                <input id="submit_comment" type="submit">
             </form>
             <hr>
             <section class="user_comment">

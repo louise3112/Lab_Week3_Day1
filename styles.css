@@ -63,6 +63,15 @@ article > p {
     margin-bottom: 12px;
 }
 
+#user_comment {
+    width: 100%;
+    height: 100px;
+}
+
+#submit_comment {
+    margin: 6px;
+}
+
 .user_comment {
     padding-left: 24px;
 }
